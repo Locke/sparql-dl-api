@@ -47,20 +47,17 @@
     </contributors>
 
     <distributionManagement>
-        <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
         <repository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>github</id>
+            <name>GitHub Locke Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/Locke/de-derivo-sparqldlapi</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:protegeproject/sparql-dl-api.git</connection>
-        <developerConnection>scm:git:git@github.com:protegeproject/sparql-dl-api.git</developerConnection>
-        <url>https://github.com/protegeproject/sparql-dl-api</url>
+        <connection>scm:git:git@github.com:Locke/sparql-dl-api.git</connection>
+        <developerConnection>scm:git:git@github.com:Locke/sparql-dl-api.git</developerConnection>
+        <url>https://github.com/Locke/sparql-dl-api</url>
     </scm>
 
     <dependencies>
