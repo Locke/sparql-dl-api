@@ -4,7 +4,7 @@
 
     <groupId>de.athalis.protege</groupId>
     <artifactId>de-derivo-sparqldlapi</artifactId>
-    <version>3.1.0-locke-2</version>
+    <version>3.1.0-locke-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <licenses>
