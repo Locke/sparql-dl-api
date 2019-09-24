@@ -2,14 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>7</version>
-    </parent>
-
-
-    <groupId>edu.stanford.protege</groupId>
+    <groupId>de.athalis.protege</groupId>
     <artifactId>de-derivo-sparqldlapi</artifactId>
     <version>3.1.0-locke-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -31,6 +24,11 @@
             <id>matthewhorridge</id>
             <name>Matthew Horridge</name>
             <email>matthew.horridge@stanford.edu</email>
+        </developer>
+        <developer>
+            <id>locke</id>
+            <name>André Wolski</name>
+            <email>andre.wolski@stud.tu-darmstadt.de</email>
         </developer>
     </developers>
 
@@ -58,9 +56,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:git@github.com:protegeproject/sparql-dl-api.git</connection>
-        <developerConnection>scm:git:git@github.com:protegeproject/sparql-dl-api.git</developerConnection>
-        <url>https://github.com/protegeproject/sparql-dl-api</url>
+        <connection>scm:git:git@github.com:Locke/sparql-dl-api.git</connection>
+        <developerConnection>scm:git:git@github.com:Locke/sparql-dl-api.git</developerConnection>
+        <url>https://github.com/Locke/sparql-dl-api</url>
     </scm>
 
     <dependencies>
