@@ -61,6 +61,10 @@
         <url>https://github.com/Locke/sparql-dl-api</url>
     </scm>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>net.sourceforge.owlapi</groupId>
