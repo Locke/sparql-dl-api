@@ -1,4 +1,4 @@
-![maven-central: de.athalis.protege:de-derivo-sparqldlapi](https://img.shields.io/maven-central/v/de.athalis.protege/de-derivo-sparqldlapi)
+[![maven-central: de.athalis.protege:de-derivo-sparqldlapi](https://img.shields.io/maven-central/v/de.athalis.protege/de-derivo-sparqldlapi)](https://search.maven.org/search?q=g:de.athalis.protege%20a:de-derivo-sparqldlapi)
 
 This is a fork of https://github.com/protegeproject/sparql-dl-api, incorporating the following pull requests:
 
