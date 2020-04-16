@@ -63,11 +63,16 @@
         <url>https://github.com/protegeproject/sparql-dl-api</url>
     </scm>
 
+    <properties>
+        <!-- Default value for OWLAPI_VERSION; overwritten in CI-Matrix -->
+        <env.OWLAPI_VERSION>4.2.8</env.OWLAPI_VERSION>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>net.sourceforge.owlapi</groupId>
             <artifactId>owlapi-distribution</artifactId>
-            <version>4.2.8</version>
+            <version>${env.OWLAPI_VERSION}</version>
         </dependency>
         <dependency>
             <groupId>org.jdom</groupId>

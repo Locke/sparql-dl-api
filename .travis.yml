@@ -4,6 +4,10 @@ jdk:
   - openjdk8
   - openjdk11
 
+env:
+  - OWLAPI_VERSION=4.2.8
+  - OWLAPI_VERSION=4.5.15
+
 cache:
   directories:
   - $HOME/.m2
