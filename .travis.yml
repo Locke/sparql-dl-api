@@ -7,6 +7,9 @@ jdk:
 env:
   - OWLAPI_VERSION=4.2.8
   - OWLAPI_VERSION=4.5.15
+  - OWLAPI_VERSION=5.1.11
+  - OWLAPI_VERSION=5.1.12
+  - OWLAPI_VERSION=5.1.13
 
 cache:
   directories:
